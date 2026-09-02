@@ -1,5 +1,14 @@
 # vinext-starter
 
+## Public portals
+
+- Primary Portal: https://ai-news-portal.cobot1234.chatgpt.site
+- GitHub Pages mirror: https://aioe1234.github.io/ai-news-portal/
+
+The GitHub Pages mirror is built automatically from `main` by
+`.github/workflows/deploy-pages.yml`. Use `npm run build:github` to verify the
+static export locally.
+
 A clean full-stack starter running on
 [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and
 Drizzle support.
