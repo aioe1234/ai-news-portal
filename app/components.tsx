@@ -22,7 +22,7 @@ export function Shell({ active, children }: { active: string; children: React.Re
       <Link className="nav-action" href="/dashboard" aria-label="前往 Dashboard">↗</Link>
     </div></header>
     <main>{children}</main>
-    <footer><div><strong>Intelligence News Portal</strong><span>AI · UAV · ROBOT WEEKLY</span></div><p>為產業決策者設計的每週情報入口 · 更新日期 2026.08.22</p></footer>
+    <footer><div><strong>Intelligence News Portal</strong><span>AI · UAV · ROBOT WEEKLY</span></div><p>為產業決策者設計的每週情報入口 · 更新日期 2026.09.05</p></footer>
   </>;
 }
 
@@ -48,7 +48,7 @@ export function TrendChart({ compact=false }: { compact?: boolean }) {
 
 export function NewsPage({ active, title, label, intro, items }: { active: string; title: string; label: string; intro: string; items: NewsItem[] }) {
   return <Shell active={active}>
-    <section className="page-hero"><p className="eyebrow">WEEKLY BRIEFING · {label}</p><h1>{title}</h1><p>{intro}</p><div className="page-meta"><span>本週 {items.length} 則精選</span><span>更新 2026.08.22</span><span>約 8 分鐘閱讀</span></div></section>
+    <section className="page-hero"><p className="eyebrow">WEEKLY BRIEFING · {label}</p><h1>{title}</h1><p>{intro}</p><div className="page-meta"><span>本週 {items.length} 則精選</span><span>更新 2026.09.05</span><span>約 8 分鐘閱讀</span></div></section>
     <section className="content-wrap news-layout"><div className="feature-story">
       <span className="tag">本週首要訊號</span><h2>{items[0].title}</h2><p>{items[0].summary}</p><div><span>{items[0].source}</span><span>{items[0].region}</span></div><a href={items[0].url} target="_blank" rel="noreferrer">閱讀來源 ↗</a>
     </div><aside className="insight-box"><span>EDITOR&apos;S NOTE</span><h3>決策者應關注</h3><p>競爭已從單點技術性能，轉向「規模化部署、治理能力與單位經濟性」的綜合較量。</p></aside></section>

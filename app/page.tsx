@@ -7,7 +7,7 @@ export default function Home() {
     <Shell active="home">
       <section className="hero">
         <div className="hero-copy">
-          <p className="eyebrow">WEEKLY INTELLIGENCE · 2026.08.23—08.29</p>
+          <p className="eyebrow">WEEKLY INTELLIGENCE · 2026.08.30—09.05</p>
           <h1>掌握每週 AI、UAV 與<br />機器人產業關鍵脈動</h1>
           <p className="lead">精選全球關鍵新聞、產業訊號與決策洞察，<br className="desktop-only" />協助您快速掌握本週趨勢。</p>
           <Link className="primary-cta" href="/executive-summary">查看本週重點 <span>→</span></Link>

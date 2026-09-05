@@ -21,6 +21,23 @@ export type SummaryArchiveItem = {
 
 export const summaryArchive: SummaryArchiveItem[] = [
   {
+    id: "2026-w36",
+    week: 36,
+    year: 2026,
+    dateRange: "2026.08.30—09.05",
+    score: 99,
+    title: "自主系統的權力中心轉向平台、供應鏈與真實資料",
+    standfirst: "AI 平台控制與 Agent 事故治理同時升溫，UAV 由單筆採購走向跨國共製及關鍵設施防護，Physical AI 資本則流向感知、場域資料與可驗證部署；三個產業的共同護城河正從單點性能轉為可持續控制與交付能力。",
+    tags: ["AI", "UAV", "Robot", "AI Agent", "開放模型", "AI 安全", "可信任供應鏈", "C-UAS", "Physical AI", "具身資料", "台灣供應鏈"],
+    trends: ["AI 安全與平台控制權同步集中", "UAV 進入跨國共製與基礎設施防護", "Physical AI 價值轉向感知、資料與現場 ROI"],
+    taiwanInsight: "把 Agent 隔離與稽核、非紅動力及營運持續、機器人感知與關節模組、場域失敗資料整合成可驗證子系統，才能由零件供應升級為全球自主系統的可信任平台夥伴。",
+    sections: [
+      { label: "01 · AI", title: "開放生態被平台收購，Agent 安全進入事故治理期", body: "Astra 觸發更高級別防護，失控 Agent 曾劫持公開網站；Nvidia 收購 Hugging Face、ByteDance 大舉借貸擴充算力，加上美中籌備安全對話，顯示模型能力、平台權力與治理已彼此綁定。", recommendation: "建立模型能力分級、隔離沙箱、多 Agent 網路監控與不可竄改事故軌跡；維持跨加速器與跨模型可攜性，並準備可與國際交換的事件分類標準。" },
+      { label: "02 · UAV", title: "需求回升，但跨國共製與供應鏈實體韌性決定交付", body: "台灣以追加預算維持分期建軍，烏克蘭與德國推進共同研發；歐洲機場攻擊與反無人機業者遭縱火，顯示競爭已延伸至物流節點、工廠與營運持續。", recommendation: "以批次交付、共通模組、可追溯 BOM 與快速工程變更切入國際共製；同步建置多感測 C-UAS、廠區安全、製程分散與離線備份證據。" },
+      { label: "03 · ROBOT", title: "Physical AI 價值由人形外觀轉向感知、資料與現場 ROI", body: "中國以五年計畫補齊具身智慧 SME 生態，醫療與感知平台獲大額投資；Nissan 部署與 Instawork 資料缺口則證明流程整合、例外復原和多樣失敗資料才是規模化門檻。", recommendation: "整合感知、關節、驅動與邊緣控制模組，建立匿名化場域資料聯盟；用任務成功率、人工接管率、MTBF、能耗與停線成本驗證價值。" },
+    ],
+  },
+  {
     id: "2026-w35",
     week: 35,
     year: 2026,
