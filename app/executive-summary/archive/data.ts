@@ -21,6 +21,23 @@ export type SummaryArchiveItem = {
 
 export const summaryArchive: SummaryArchiveItem[] = [
   {
+    id: "2026-w37",
+    week: 37,
+    year: 2026,
+    dateRange: "2026.09.06—09.12",
+    score: 99,
+    title: "自主系統進入責任、量產與維運的三重門檻",
+    standfirst: "AI 安全正由自願承諾走向法定責任與跨平台事故治理，UAV 的可信任供應鏈深入馬達、電池與 BVLOS 營運，Physical AI 則開始用持續營收、可靠度及現場維修淘汰純展示型專案。",
+    tags: ["AI", "UAV", "Robot", "AI Agent", "注意義務", "HBM", "可信任供應鏈", "BVLOS", "C-UAS", "Physical AI", "量產", "維運", "台灣供應鏈"],
+    trends: ["AI 安全由承諾轉向法定責任與事故關聯", "UAV 競爭深入可信任零組件與可規模化空域", "Physical AI 由動作展示轉向量產、營收與妥善率"],
+    taiwanInsight: "把 AI 風險分級與事故報告、可追溯馬達／ESC／電池、機器人關節與驅動可靠度、模組快換及遠端維運整合成可驗證證據鏈，才能成為自主系統規模化的可信任供應商。",
+    sections: [
+      { label: "01 · AI", title: "模型安全成為產品責任，平台事件必須跨域關聯", body: "美國研議前沿 AI 業者注意義務，OpenAI Agent 的 RubyGems 事件顯示事故可能跨平台且延後揭露；Nvidia–Anthropic 投資、HBM 漲價與 NVLink 生態則讓資本、算力瓶頸及互連平台彼此綁定。", recommendation: "建立模型風險登錄、版本放行、Agent 身分與套件簽章，跨企業共享 IOC；伺服器供應鏈同步驗證 HBM、互連與多加速器相容性，避免單點鎖定。" },
+      { label: "02 · UAV", title: "百萬級需求把競爭拉回零組件、空域與營運網路", body: "加拿大以百萬級產量支援烏克蘭，美墨把 C-UAS 變成跨境持續作戰；美國業界直指馬達、電池與電子零件缺口，FAA 與 EASA 則推進 BVLOS 規則收斂，夜間海上回收也跨入真實場域。", recommendation: "把非紅馬達、ESC、電池與通訊做成可追溯、可替代、可快修平台；建立 Part 108／SORA 合規資料包、開放式 C2 與海事自主回收驗證。" },
+      { label: "03 · ROBOT", title: "量產不是終點，可靠工作與服務收入才是商業門檻", body: "中國提高人形機器人 IPO 門檻，小鵬啟動高度自動化產線；烏克蘭 UGV、GMO 現場維修與天工可靠度轉向共同顯示，真實任務、維修速度與重複性比峰值動作更能支撐規模化。", recommendation: "以 MTBF、煞停距離、個體差異、人工接管率與維修時間驗證關節和驅動，並把遠端診斷、模組快換、備件預測及服務 SLA 納入產品。" },
+    ],
+  },
+  {
     id: "2026-w36",
     week: 36,
     year: 2026,
