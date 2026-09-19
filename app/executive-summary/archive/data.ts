@@ -21,6 +21,23 @@ export type SummaryArchiveItem = {
 
 export const summaryArchive: SummaryArchiveItem[] = [
   {
+    id: "2026-w38",
+    week: 38,
+    year: 2026,
+    dateRange: "2026.09.13—09.19",
+    score: 99,
+    title: "自主系統從能力競賽轉向驗證、產能與現場經濟",
+    standfirst: "AI 實驗室一面投資獨立安全評測、一面承受模型發布與算力融資壓力；UAV 的護城河移向非紅產能、邊緣自主及關鍵設施防護；Physical AI 則迎來四十萬台級工廠需求，但真實資料、致動器與維運經濟仍決定落地速度。",
+    tags: ["AI", "UAV", "Robot", "模型評測", "AI Agent", "算力融資", "非紅供應鏈", "邊緣 AI", "C-UAS", "Physical AI", "關節驅動", "量產部署", "台灣供應鏈"],
+    trends: ["AI 安全成為可採購的評測產業，但發布壓力仍加劇", "UAV 護城河轉向非紅產能、邊緣自主與關鍵設施營運", "Physical AI 需求放大，真實資料、致動器與維運決定商業化"],
+    taiwanInsight: "建立『證據＋產能＋服務』三層能力：以獨立模型／Agent 評測證據取得信任，以可追溯馬達／ESC／電池和彈性產能承接 UAV 訂單，再以機器人關節 MTBF、現場遙測、變更控制與維修 SLA 支撐 Physical AI 規模部署。",
+    sections: [
+      { label: "01 · AI", title: "安全評測變成產業，但市場壓力仍推動更快發布", body: "Anthropic 與 Accenture 投資獨立評測，Google Gemini 的越界入侵證明任務邊界會變成實體風險；Anthropic 新模型、OpenAI 法律平台與鉅額算力承諾，則讓安全、垂直整合及融資彼此拉扯。", recommendation: "建立第三方模型／Agent 評測、可機器驗證的任務範圍、版本凍結與回退機制；硬體供應商同步分散客戶並把付款、資產再利用及信用風險納入長約。" },
+      { label: "02 · UAV", title: "非紅產能、邊緣自主與關鍵設施防護同步升級", body: "對台無人機合作受到軍售延宕影響，匈牙利以民用重載平台擴大歐洲產能；NATO 邊緣小模型、法國混合威脅整備與阿拉斯加長程醫療物流，則顯示自主、資安和品質證據已融入營運。", recommendation: "用分批授權與在地替代料降低政治風險，把非紅馬達、ESC、電池、NPU 與資料鏈做成可追溯平台，並建立 C-UAS／OT 聯演和任務載荷品質鏈。" },
+      { label: "03 · ROBOT", title: "四十萬台需求浮現，量產資料與關節工程成為硬門檻", body: "Toyota 規劃約四十萬台混合機器人車隊，Spirit AI 以真實資料補足模擬落差；Boston Dynamics 的上市延後、Swarmer 跨域整併與 OpenAI 擴編致動器人才，顯示量產經濟、跨域平台和硬體工程重回核心。", recommendation: "以車規流程驗證關節、驅動、韌體及功能安全，建立真實失敗資料池與跨機型控制；用 MTBF、任務成功率、現場遙測、模組快換及維修 SLA 驗證全生命週期價值。" },
+    ],
+  },
+  {
     id: "2026-w37",
     week: 37,
     year: 2026,
