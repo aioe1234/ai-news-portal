@@ -21,6 +21,23 @@ export type SummaryArchiveItem = {
 
 export const summaryArchive: SummaryArchiveItem[] = [
   {
+    id: "2026-w39",
+    week: 39,
+    year: 2026,
+    dateRange: "2026.09.20—09.26",
+    score: 99,
+    title: "自主系統進入成本、邊界與規模部署的實證期",
+    standfirst: "AI 模型以更低成本、更強安全評測與多模型協作競爭；UAV 的推進、監管與抗干擾定位同時改寫可信任條件；Physical AI 則由產量敘事轉向行為資料、外部安全層與數百台級真實部署。",
+    tags: ["AI", "UAV", "Robot", "模型成本", "多模型 Agent", "邊緣算力", "非紅供應鏈", "氫燃料電池", "Assured PNT", "C-UAS", "Physical AI", "MoveIt", "功能安全", "台灣供應鏈"],
+    trends: ["AI 競爭由單一能力轉向成本、安全與多模型編排", "UAV 信任邊界延伸至推進、資產管制與抗干擾定位", "Physical AI 由出貨數量轉向行為資料、外部安全與規模營運"],
+    taiwanInsight: "把模型評測與多 Agent 治理、可追溯動力與 Assured PNT、機器人關節驅動與獨立安全控制做成可驗證模組；再以台灣工廠、醫療、觀光及海事場域累積真實任務資料，形成『模組＋證據＋場域』的出口能力。",
+    sections: [
+      { label: "01 · AI", title: "模型降本與全棧投資並進，多模型治理成為企業基本架構", body: "Claude Opus 5.5 同時降低成本與越界率，Apple 把兆參數模型帶回本地端；Alibaba 加碼模型、晶片和 20GW 雲端，DeepSeek 參與安理會治理，Palo Alto 則證明單一模型無法覆蓋複雜資安風險。", recommendation: "以任務成本、成功率及越界率建立跨模型評測；部署可替換的雲端／本地推論、多模型 Agent SOC 與高風險人工核准，硬體投資同步避免單一全棧平台鎖定。" },
+      { label: "02 · UAV", title: "推進升級、資產管制與導航韌性重畫可信任邊界", body: "台灣 7A 聯盟打入美國市場，噴射 Shahed 讓既有攔截率大幅下降；北京把監管推到設備持有，氫燃料 UAV 與 Kongsberg 抗干擾 PNT 訂單則顯示動力及導航成為新價值核心。", recommendation: "建立聯盟級 BOM、資安及維保證據，並把馬達／ESC、氫電 DC/DC、GNSS／INS、視覺定位與 GPS-denied 測試整合成可認證動力與導航平台。" },
+      { label: "03 · ROBOT", title: "人形基數仍小，行為工廠、外部安全與軟體入口決定規模化", body: "全球人形年銷僅約 7,000 台，Boston Dynamics 先建行為工廠；RoboHarm 暴露模型控制的實體風險，Qualcomm 收購 MoveIt 維護商，AgiBot 則以 300 台級場域驗證多機營運。", recommendation: "用付費部署、工作時數和重複訂單驗證需求；推動 ROS 2／MoveIt 相容關節套件、獨立安全 PLC、行為資料治理及多機遠端維運，避免只追逐整機出貨。" },
+    ],
+  },
+  {
     id: "2026-w38",
     week: 38,
     year: 2026,
