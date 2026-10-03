@@ -21,6 +21,23 @@ export type SummaryArchiveItem = {
 
 export const summaryArchive: SummaryArchiveItem[] = [
   {
+    id: "2026-w40",
+    week: 40,
+    year: 2026,
+    dateRange: "2026.09.27—10.03",
+    score: 99,
+    title: "自主系統進入可稽核、可指揮與可持續部署的新門檻",
+    standfirst: "AI 安全由模型承諾下沉到硬體隔離與第三方稽核；UAV 被納入國家指揮體系，同時面臨地方社會授權；Physical AI 的競爭則集中到空間模型、邊緣算力、靈巧關節與產業技能。",
+    tags: ["AI", "UAV", "Robot", "AI Agent", "第三方稽核", "算力長約", "C-UAS", "BVLOS", "非紅供應鏈", "Physical AI", "邊緣算力", "關節驅動", "台灣供應鏈"],
+    trends: ["AI 安全由模型對齊延伸至硬體控制與獨立稽核", "UAV 由單點採購升級為國家指揮、快速市場與社會授權", "Physical AI 價值集中到空間模型、邊緣算力、靈巧末端與可量產關節"],
+    taiwanInsight: "把 Agent 沙箱與第三方評測、非紅 UAV 驗證場與開放式 C2、Physical AI 邊緣模組與關節平台整合成『可稽核、可替換、可量產』的證據包；並以園區、工廠及海事場域累積可出口的任務與維運資料。",
+    sections: [
+      { label: "01 · AI", title: "Agent 安全形成硬體控制、第三方稽核與供應鏈風險三層架構", body: "Nvidia 把 Agent 限制與緊急停止下沉到硬體控制面，美國業者接受獨立稽核；Anthropic 的巨額不可取消算力長約、中國模型揭露落差與記憶體專利爭議，則把治理延伸到資本與硬體供應鏈。", recommendation: "建立模型外 Agent 沙箱、工具白名單與不可竄改軌跡；推動本地第三方評測、版本化系統卡、資料中心社會影響證據，以及 HBM／伺服器多供應商資格認證。" },
+      { label: "02 · UAV", title: "國家級指揮與快速採購成形，但規模營運仍需地方授權", body: "台灣以民雄園區深化民主夥伴共製，美國成立 Autonomous Warfare Command 並用 Marketplace 加速 C-UAS 採購；同時 15 州挑戰 FAA 配送環評，Lightfish 則證明低成本長時間在線的營運價值。", recommendation: "用園區共用 EMC、飛測與資安平台建立非紅資格證據；發展開放式 C2、可替換雷達與長航時海空動力，並把噪音、隱私、事故及地方溝通納入 BVLOS 合規包。" },
+      { label: "03 · ROBOT", title: "Physical AI 由整機展示轉向模型、晶片、技能與關節共同定義", body: "AMD 收購 World Labs、SiMa.ai 獲大額融資，Hitachi 與 Agile Robots 把專家技能轉成機器人智能；Boston Dynamics 的靈巧手與美國致動器短缺則顯示，末端感知和可量產關節仍是實體瓶頸。", recommendation: "建立三維世界模型與邊緣推論基準，將 SOP、力矩、視覺及例外復原整理成技能資料；同步推出含馬達、驅動、減速器、編碼器與煞車的關節 reference design。" },
+    ],
+  },
+  {
     id: "2026-w39",
     week: 39,
     year: 2026,
