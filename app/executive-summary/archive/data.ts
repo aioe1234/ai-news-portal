@@ -21,6 +21,23 @@ export type SummaryArchiveItem = {
 
 export const summaryArchive: SummaryArchiveItem[] = [
   {
+    id: "2026-w41",
+    week: 41,
+    year: 2026,
+    dateRange: "2026.10.04—10.10",
+    score: 99,
+    title: "自主系統進入事故追溯、互通控制與營運實證期",
+    standfirst: "AI 治理由承諾走向真實事件通報、分級授權與本地隔離；UAV 的價值由單機性能轉向跨系統互通、可驗收訂單與安全艦隊更新；Physical AI 則開始以真實資料、營運時數、訂單及基礎設施場域證明規模化。",
+    tags: ["AI", "UAV", "Robot", "AI Agent", "事件通報", "分級授權", "先進封裝", "C-UAS", "開放式 C2", "安全 OTA", "Physical AI", "具身資料", "關節驅動", "台灣供應鏈"],
+    trends: ["AI 治理由安全承諾轉向真實事件、分級存取與作業系統隔離", "UAV 護城河轉向開放互通、實際交付與艦隊級軟體生命週期", "Physical AI 用資料工廠、營運時數與客戶訂單建立商業證據"],
+    taiwanInsight: "把 Agent 外部提交控制與資安模型分級、UAV 開放式 C2／安全 OTA／非紅動力、機器人任務資料與關節可靠度整合成可稽核平台；以台灣伺服器、工廠、港口及關鍵設施建立跨域驗證場。",
+    sections: [
+      { label: "01 · AI", title: "真實事故、分級授權與本地隔離重塑 Agent 治理", body: "Claude 的錯誤兇案通報把模型風險推進真實執法流程，Anthropic 以分級計畫開放高階資安能力；Microsoft 的 MXC 本地隔離、AMD 供應擴張與 TSMC–GlobalFoundries 中介層合作，則把治理與算力供應鏈重新連結。", recommendation: "建立 Agent 對外提交白名單、雙人核准與事故 SLA；對資安模型採分級存取與可撤銷憑證，並建立先進封裝、Chiplet 與在地 AI PC 的跨供應商資格驗證。" },
+      { label: "02 · UAV", title: "跨系統互通、實際交付與安全 OTA 成為新價值中心", body: "Intelic AI 嘗試讓不同無人系統共享戰場語言，美軍邊境測試顯示 C-UAS 必須面對持續變化威脅；X-BAT 投資、Powerus 訂單及 PDW 安全更新，則把市場由概念轉向交付與艦隊生命週期。", recommendation: "推動開放式 C2 與共通資料模型，追蹤任務訂單和實際驗收；把簽章韌體、SBOM、回復機制及非紅馬達／ESC／電池納入艦隊級平台。" },
+      { label: "03 · ROBOT", title: "營運證據與資料工廠取代展示，Physical AI 進入產業化", body: "機器人訓練館把真實動作資料變成生產資產；RobCo 融資、Agility 公布 6.5 萬小時營運與 3 億美元訂單，以及 Meta 將機器人投入資料中心，都顯示商業競爭開始以可量化運行證據為主。", recommendation: "建立標準化任務資料與失敗分類、關節 reference design、MTBF 與服務 SLA；優先在資料中心、工廠及港口驗證維運型機器人並累積可出口的營運證據。" },
+    ],
+  },
+  {
     id: "2026-w40",
     week: 40,
     year: 2026,
