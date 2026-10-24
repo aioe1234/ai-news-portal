@@ -21,6 +21,23 @@ export type SummaryArchiveItem = {
 
 export const summaryArchive: SummaryArchiveItem[] = [
   {
+    id: "2026-w43",
+    week: 43,
+    year: 2026,
+    dateRange: "2026.10.18—10.24",
+    score: 99,
+    title: "自主系統進入可部署、可管控、可負責的產業化階段",
+    standfirst: "AI 業者同時為模型能力外流、Agent 權限與算力資本設限；UAV 的反制權限、海空域安全與非紅電池進入制度化；Physical AI 則由參考平台、燈塔工廠、合規豁免與獨立安全層共同推向商業部署。",
+    tags: ["AI", "UAV", "Robot", "AI Agent", "模型蒸餾", "Vera CPU", "算力融資", "C-UAS", "關鍵設施", "非紅電池", "PNT", "Physical AI", "Isaac", "燈塔工廠", "安全層", "台灣供應鏈"],
+    trends: ["AI 競爭由能力擴張轉向存取、資本與營運控制", "UAV 治理深入反制授權、跨域 C2 與能源供應鏈", "Physical AI 以平台、量產場域與獨立安全層建立部署信任"],
+    taiwanInsight: "把 Agent 身分／用量異常、異質算力與客戶信用，UAV 開放式 C2／多源 PNT／非紅推進能源，以及機器人數位模型／關節壽命／獨立安全層整合成可驗證方案；台灣應用真實製造與關鍵設施場域建立可出口的『部署證據』。",
+    sections: [
+      { label: "01 · AI", title: "模型存取、Agent 權限與算力資本成為新的控制邊界", body: "Anthropic 犧牲 5%–7% 收入阻擋模型蒸餾，OpenAI 搶募 300 億美元；Nvidia Vera 打入 Agent 雲端，而 AI 漏洞發現與電信自主網路案例顯示，能力擴張必須配合近即時防禦及人工接管。", recommendation: "建立帳戶關聯、輸出指紋與 Agent 註冊／任務級授權；用異質算力的每任務成本、供應商可替換性及客戶信用條款管理平台和融資風險。" },
+      { label: "02 · UAV", title: "C-UAS 由設備競賽升級為授權、海空域與能源韌性", body: "歐洲研議把反制權限下放給關鍵設施，羅馬尼亞與 NATO 擴大黑海監視和攔截；高速 Geran-4、電子戰造成跨境偏航，以及美國 21 萬組本土電池，則把威脅與供應鏈推向動力、導航和制度底層。", recommendation: "建立跨機關反制授權與開放式 C2，以高速靶機驗證低成本攔截；將多源 PNT、可信地理圍欄、電芯／BMS 追溯及馬達／ESC／電池協同測試做成資格包。" },
+      { label: "03 · ROBOT", title: "參考平台、燈塔工廠與安全層把 Physical AI 推入部署期", body: "Nvidia 以 Isaac 串起資料到部署，Schaeffler 讓人形機器人及其零組件在同一工廠驗證量產；Intel 的 FCC 豁免、Agility 工廠試點和 FORT 安全融資顯示，可替代性、營運不中斷及安全責任已成商業門檻。", recommendation: "把 ROS 2／Isaac 介面、數位模型、關節壽命、功能安全和事件紀錄做成預整合模組；在台灣工廠用節拍、MTBF、人工接管率及模組快換時間決定擴線。" },
+    ],
+  },
+  {
     id: "2026-w42",
     week: 42,
     year: 2026,
