@@ -21,6 +21,23 @@ export type SummaryArchiveItem = {
 
 export const summaryArchive: SummaryArchiveItem[] = [
   {
+    id: "2026-w44",
+    week: 44,
+    year: 2026,
+    dateRange: "2026.10.25—10.31",
+    score: 99,
+    title: "自主系統由單點能力轉向異質平台、跨域部署與主權控制",
+    standfirst: "AI 的算力、模型與 Agent 走向多供應商及主權邊界；UAV 由大額採購、異質群飛與軟體定義自主延伸至海上經濟安全；Physical AI 則以真實運轉資料、伺服器製造任務及量產資本進入可複製部署期。",
+    tags: ["AI", "UAV", "Robot", "TPU", "AI Agent", "出口管制", "軍事 AI", "算力長約", "C-UAS", "異質群飛", "Hivemind", "海上安全", "Physical AI", "GR00T", "RaaS", "關節驅動", "台灣供應鏈"],
+    trends: ["AI 競爭轉向多晶片、多模型與主權服務邊界", "UAV 以攻防採購、異質編隊及海上安全擴大跨域影響", "Physical AI 用真實工時、製程工作包與量產資本證明可部署性"],
+    taiwanInsight: "把 GPU／TPU／ASIC 共通設計、Agent 權限與跨境模型清單，UAV 異質群隊 C2／非紅推進／海上聯防，以及機器人關節模組／製程資料／RaaS 維運整合成可驗證平台；台灣應以 AI 伺服器與海洋場域把製造優勢轉為任務級部署證據。",
+    sections: [
+      { label: "01 · AI", title: "多晶片、多模型與跨境服務重畫 AI 控制邊界", body: "OpenAI 擬採購 Google TPU，Anthropic 揭露十年逾 6,000 億美元算力承諾；中國以服務取代權重出口，美軍 Maven 與 Serval 則證明高風險及企業 Agent 的共同門檻是資料時效、權限分離與人類責任。", recommendation: "建立 GPU／TPU／ASIC 共通驗證與多模型替代；盤點權重、API、資料和部署地，為 Agent 實施身分分離、短效憑證、敏感動作核准及離線降級。" },
+      { label: "02 · UAV", title: "攻防採購、異質群隊與海上外溢形成跨域市場", body: "印度大額軍購同時涵蓋 UAV 與 C-UAS，台灣推動三型 VTOL 定翼機協同，Leonardo 導入 Hivemind；北韓量產與黑海無人艇擊沉商船，顯示自主系統已跨越平台、國境與商業航運。", recommendation: "建立跨機型任務語意、開放式 C2、數位孿生及斷鏈自主；將非紅馬達／ESC／電池、感測融合、低成本攔截與港口／航道恢復演練整合為資格包。" },
+      { label: "03 · ROBOT", title: "真實工時、製程工作包與量產資本推動 Physical AI 跨廠部署", body: "Foxconn 在德州部署逾 10 台人形機器人並以機器人組裝 GB300 測試托盤，Digit 累積 6.5 萬小時且擴至兩州；Unitree 利潤承壓、Agility 募資上市則把研發、產能與服務成本帶入公開檢驗。", recommendation: "以 GR00T／Isaac 相容的關節、驅動、感測及 IPC 模組切入；把熟練工影片與失敗復原轉成工作包，用任務成功率、MTBF、MTTR、能耗和人工接管率決定擴站。" },
+    ],
+  },
+  {
     id: "2026-w43",
     week: 43,
     year: 2026,
