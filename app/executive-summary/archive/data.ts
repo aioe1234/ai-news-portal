@@ -21,6 +21,23 @@ export type SummaryArchiveItem = {
 
 export const summaryArchive: SummaryArchiveItem[] = [
   {
+    id: "2026-w45",
+    week: 45,
+    year: 2026,
+    dateRange: "2026.11.01—11.07",
+    score: 99,
+    title: "自主系統競爭轉向受控能力、網路化服務與資料主權",
+    standfirst: "AI 以白名單能力、算力合規及先進封裝重畫控制邊界；UAV 由單機採購走向 DFR、BVLOS、衛星資料鏈與共同 C-UAS 市場；Physical AI 則以資料工廠、跨形體大腦、上市檢驗及客戶技能主權邁入產業化。",
+    tags: ["AI", "UAV", "Robot", "GPT-6 Cyber", "資安", "H200", "先進封裝", "CoWoS", "AI 治理", "出口管制", "DFR", "BVLOS", "C-UAS", "衛星資料鏈", "非紅供應鏈", "Physical AI", "資料工廠", "資料主權", "RaaS", "關節驅動", "台灣供應鏈"],
+    trends: ["AI 能力、算力與封裝供應鏈同步進入受控交付", "UAV 價值由平台性能擴展至網路服務、空域與共同採購", "Physical AI 以任務資料、技能所有權與公開市場證明商業化"],
+    taiwanInsight: "把模型分級／算力合規／封裝良率，UAV 的 DFR／BVLOS／多鏈路 C2／元件追溯，以及機器人的任務資料／技能版本／關節遙測整合成可驗證平台；台灣應把製造、公共安全及能源場域轉化為可出口的營運與資料資產。",
+    sections: [
+      { label: "01 · AI", title: "白名單能力、算力合規與先進封裝形成三層控制面", body: "GPT-6 Cyber 以 Critical 等級限制客戶，H200 庫存卡在香港、Oracle 取消騰訊算力租賃；同時先進封裝產值首度超越傳統封裝，美國則準備彙整 AI 實驗室適用法律。", recommendation: "建立模型能力分級、工具白名單與全軌跡稽核；將客戶、地區及最終用途綁定算力交付，並以 CoWoS／面板級封裝、HBM、測試及熱翹曲證據擴大台灣優勢。" },
+      { label: "02 · UAV", title: "DFR、BVLOS、衛星資料鏈與共同市場把 UAV 變成服務網路", body: "Axon 追加投資 Skydio、Zipline 估值大增，NATO 建立可直接採購的 C-UAS 商城；俄羅斯以小型低軌星座支援無人機，台灣元件產地事件則把非紅要求推進拆機驗收與求償。", recommendation: "整合機庫、飛控、影像、證據鏈及派遣 API；發展低噪音推進、多鏈路自動切換及斷鏈自主，並用元件序號、封裝地、韌體與替代料核准建立非紅資格包。" },
+      { label: "03 · ROBOT", title: "資料工廠、跨形體大腦與技能主權決定 Physical AI 規模", body: "中國資本由硬體轉向機器人大腦，南韓建立 12 台人形資料工廠；Agility 上市讓部署經濟接受季度檢驗，NEURA 電網合作與 Pudu 共用大腦則顯示任務資料、技能所有權及跨平台重用成為交易核心。", recommendation: "建立視覺、力矩、電流、觸覺、失敗復原與人工接管的共通資料標準；讓關節、驅動及 IPC 提供 URDF／USD、控制 API 與安全狀態，技能以客戶可控版本化資產交付。" },
+    ],
+  },
+  {
     id: "2026-w44",
     week: 44,
     year: 2026,
